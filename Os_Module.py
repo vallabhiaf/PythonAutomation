@@ -4,7 +4,7 @@ os.remove("novel.txt")
 os.rename("old_name.txt","new_name.txt")
 #check_weather the file exists
 
-os.path.exits("Vallabh.txt")
+os.path.exists("Vallabh.txt")
 os.path.getsize("Vallabh.txt")
 #findthe time when the file was last modified.the return is a timestamp since 1970(unix file systems time convention)
 timestamp=os.path.getmtime("Vallabh.txt")
